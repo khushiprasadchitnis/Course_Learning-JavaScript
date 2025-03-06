@@ -1,3 +1,9 @@
+
+# Learning
+
+[freecodecamp: Learn JavaScript for Beginners](https://www.freecodecamp.org/news/learn-javascript-for-beginners/)
+
+
 # x days of code
 
 [30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)  
