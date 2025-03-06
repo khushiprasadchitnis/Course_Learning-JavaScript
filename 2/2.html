@@ -1,10 +1,25 @@
-<input type="text" id="userName" placeholder="Enter your name" />
-<button onclick="displayMessage()">Submit</button>
-<p id="message"></p>
+<input 
+  type="text" 
+  id="userName" 
+  placeholder="Please Enter name" />
+
+<button onclick="displayMessage()">
+  Submit
+</button>
+
+<p id="message">
+</p>
+
 
 <script>
   function displayMessage() {
+
+    // 1. get the entered text
     let name = document.getElementById("userName").value;
+
+    console.log("name=", name);
+
+    // 2. set the content of the p element
     document.getElementById("message").innerText = "Hello, " + name + "!";
   }
 </script>
