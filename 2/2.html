@@ -1,0 +1,10 @@
+<input type="text" id="userName" placeholder="Enter your name" />
+<button onclick="displayMessage()">Submit</button>
+<p id="message"></p>
+
+<script>
+  function displayMessage() {
+    let name = document.getElementById("userName").value;
+    document.getElementById("message").innerText = "Hello, " + name + "!";
+  }
+</script>
